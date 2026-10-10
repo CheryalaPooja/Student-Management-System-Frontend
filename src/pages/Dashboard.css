@@ -1,0 +1,502 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   MAIN DASHBOARD
+================================ */
+
+.dashboard {
+  min-height: 100vh;
+
+  background: #f4f7fb;
+
+  font-family: Arial, sans-serif;
+}
+
+
+/* ================================
+   NAVBAR
+================================ */
+
+.dashboard-navbar {
+
+  min-height: 70px;
+
+  background: #1e3a8a;
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 0 40px;
+}
+
+
+.dashboard-navbar h2 {
+
+  margin: 0;
+
+  font-size: 22px;
+}
+
+
+/* ================================
+   NAVIGATION MENU
+================================ */
+
+.dashboard-menu {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+
+.dashboard-menu button {
+
+  background: white;
+
+  color: #1e3a8a;
+
+  border: none;
+
+  padding: 10px 16px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  font-size: 14px;
+}
+
+
+.dashboard-menu button:hover {
+
+  background: #e5e7eb;
+}
+
+
+/* USER NAME */
+
+.user-name {
+
+  color: white;
+
+  font-weight: bold;
+
+  padding: 0 10px;
+}
+
+
+/* ================================
+   CONTENT
+================================ */
+
+.dashboard-content {
+
+  padding: 40px;
+}
+
+
+.dashboard-content h1 {
+
+  color: #1f2937;
+
+  margin-bottom: 30px;
+}
+
+
+/* ================================
+   STUDENT CARD
+================================ */
+
+.student-card {
+
+  width: 500px;
+
+  max-width: 100%;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 4px 15px
+    rgba(0, 0, 0, 0.08);
+}
+
+
+.student-card h2 {
+
+  color: #1e3a8a;
+
+  margin-bottom: 25px;
+}
+
+
+.detail {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 14px 0;
+
+  border-bottom:
+    1px solid #e5e7eb;
+}
+
+
+.detail strong {
+
+  color: #374151;
+}
+
+
+.detail span {
+
+  color: #111827;
+}
+
+
+/* ================================
+   ADMIN FORM
+================================ */
+
+.admin-form {
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 4px 15px
+    rgba(0, 0, 0, 0.08);
+
+  margin-bottom: 25px;
+}
+
+
+.admin-form h2 {
+
+  color: #1e3a8a;
+
+  margin-top: 0;
+
+  margin-bottom: 20px;
+}
+
+
+.form-row {
+
+  display: flex;
+
+  gap: 10px;
+
+  flex-wrap: wrap;
+}
+
+
+.form-row input {
+
+  padding: 12px;
+
+  border:
+    1px solid #d1d5db;
+
+  border-radius: 6px;
+
+  min-width: 150px;
+
+  font-size: 14px;
+}
+
+
+.form-row button {
+
+  padding: 12px 20px;
+
+  background: #1e3a8a;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+
+.form-row button:hover {
+
+  background: #172554;
+}
+
+
+/* ================================
+   SEARCH
+================================ */
+
+.admin-search {
+
+  margin-bottom: 20px;
+}
+
+
+.admin-search input {
+
+  width: 350px;
+
+  max-width: 100%;
+
+  padding: 12px;
+
+  border:
+    1px solid #d1d5db;
+
+  border-radius: 6px;
+
+  font-size: 14px;
+}
+
+
+/* ================================
+   STUDENT TABLE
+================================ */
+
+.student-table {
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 4px 15px
+    rgba(0, 0, 0, 0.08);
+
+  overflow-x: auto;
+}
+
+
+.student-table h2 {
+
+  color: #1e3a8a;
+
+  margin-top: 0;
+}
+
+
+.student-table table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  margin-top: 15px;
+
+  min-width: 750px;
+}
+
+
+.student-table th,
+.student-table td {
+
+  padding: 14px;
+
+  text-align: center;
+
+  border-bottom:
+    1px solid #e5e7eb;
+}
+
+
+.student-table th {
+
+  background: #1e3a8a;
+
+  color: white;
+}
+
+
+.student-table tr:hover {
+
+  background: #f9fafb;
+}
+
+
+/* ================================
+   ACTION BUTTONS
+================================ */
+
+.student-table button {
+
+  border: none;
+
+  padding: 8px 12px;
+
+  margin: 3px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+
+.edit-button {
+
+  background: #f59e0b;
+
+  color: white;
+}
+
+
+.delete-button {
+
+  background: #dc2626;
+
+  color: white;
+}
+
+
+.edit-button:hover {
+
+  background: #d97706;
+}
+
+
+.delete-button:hover {
+
+  background: #b91c1c;
+}
+
+
+/* ================================
+   NO DATA
+================================ */
+
+.no-data {
+
+  padding: 25px !important;
+
+  color: #6b7280;
+
+  text-align: center;
+}
+
+
+/* ================================
+   LOADING
+================================ */
+
+.loading {
+
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 20px;
+
+  font-family: Arial, sans-serif;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+  .dashboard-navbar {
+
+    padding: 15px;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+  }
+
+
+  .dashboard-navbar h2 {
+
+    font-size: 18px;
+
+  }
+
+
+  .dashboard-menu {
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+  }
+
+
+  .dashboard-content {
+
+    padding: 20px;
+
+  }
+
+
+  .form-row {
+
+    flex-direction: column;
+
+  }
+
+
+  .form-row input {
+
+    width: 100%;
+
+  }
+
+
+  .form-row button {
+
+    width: 100%;
+
+  }
+
+
+  .admin-search input {
+
+    width: 100%;
+
+  }
+
+
+  .student-card {
+
+    width: 100%;
+
+  }
+
+}

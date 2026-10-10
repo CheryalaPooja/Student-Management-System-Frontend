@@ -1,0 +1,81 @@
+.student-dashboard {
+  min-height: 100vh;
+  background: #f2f5f9;
+}
+
+.navbar {
+  background: #2563eb;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: #2563eb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background: #e5e7eb;
+}
+
+.dashboard-content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-content h1 {
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.student-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.student-card h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 8px 0;
+  background: #f8fafc;
+  border-radius: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.detail strong {
+  color: #333;
+}
+
+.detail span {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+}

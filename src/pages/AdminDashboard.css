@@ -1,0 +1,142 @@
+.admin-dashboard {
+  min-height: 100vh;
+  background: #f2f5f9;
+}
+
+.admin-navbar {
+  background: #1d4ed8;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-navbar h2 {
+  margin: 0;
+}
+
+.admin-navbar div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.admin-navbar button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: #1d4ed8;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-navbar button:hover {
+  background: #e5e7eb;
+}
+
+.admin-content {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.admin-content > h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+.admin-form,
+.admin-search,
+.admin-table {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.admin-form h2,
+.admin-table h2 {
+  color: #2563eb;
+  margin-top: 0;
+}
+
+.admin-form input,
+.admin-search input {
+  padding: 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.add-button {
+  padding: 12px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-button:hover {
+  background: #1d4ed8;
+}
+
+.admin-search input {
+  width: 95%;
+}
+
+.admin-table {
+  overflow-x: auto;
+}
+
+.admin-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table th {
+  background: #2563eb;
+  color: white;
+}
+
+.edit-button {
+  padding: 8px 12px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-button {
+  padding: 8px 12px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background: #e69500;
+}
+
+.delete-button:hover {
+  background: #cc0000;
+}
